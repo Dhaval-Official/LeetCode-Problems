@@ -1,6 +1,6 @@
-package Problems_0100;
+package Problems.Problems_0000;
 
-class Solution0001 {
+public class Solution_0001 {
 
     public int[] twoSum(int[] nums, int target) {
 
