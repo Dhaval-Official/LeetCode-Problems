@@ -11,5 +11,8 @@ public class Driver {
         Solution_0009 sw = new Solution_0009();
         System.out.println(sw.isPalindrome(923432));
 
+        Solution_0009 s2 = new Solution_0009();
+        System.out.println(s2.isPalindrome(923432));
+
     }
 }
