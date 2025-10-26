@@ -6,7 +6,7 @@ public class Solution_0020 {
         boolean valid = false;
 
         for (int i = 0; i < s.length()-1; i++) {
-
+            System.out.println();
         }
 
 
