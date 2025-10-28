@@ -8,7 +8,7 @@ public class Solution_0020 {
         for (int i = 0; i < s.length()-1; i++) {
             System.out.println();
         }
-sout
+
 
         return valid;
     }
