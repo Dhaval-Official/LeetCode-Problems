@@ -22,7 +22,7 @@ public class Driver {
 
         Solution_0014 s1 = new Solution_0014();
         System.out.println(s1.longestCommonPrefix(arr));
-
+        System.out.println();
     }
 
 
