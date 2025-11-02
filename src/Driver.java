@@ -19,15 +19,6 @@ public class Driver {
         ListNode llA = new ListNode(-69);
         ListNode llB = new ListNode(-69);
 
-        ll0.next = ll1;
-        ll1.next = ll2;
-        ll2.next = ll3;
-        ll3.next = ll4;
-        ll4.next = ll5;
-        ll5.next = ll6;
-        ll6.next = ll7;
-        ll7.next = ll8;
-
 
 
         String[] arr = {"dog","dog","dog","do"};
