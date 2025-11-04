@@ -19,6 +19,8 @@ public class Driver {
         ListNode llA = new ListNode(-69);
         ListNode llB = new ListNode(-69);
 
+        llA.next = ll1;
+
         ll0.next = ll1;
         ll1.next = ll2;
         ll2.next = ll3;
