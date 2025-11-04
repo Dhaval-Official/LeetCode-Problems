@@ -20,7 +20,8 @@ public class Driver {
         ListNode llB = new ListNode(-69);
 
         llA.next = ll1;
-        llB.next = ll2;
+
+
 
         ll0.next = ll1;
         ll1.next = ll2;
@@ -32,12 +33,12 @@ public class Driver {
         ll7.next = ll8;
 
 
-
-        String[] arr = {"dog","dog","dog","do"};
-
-        Solution_0014 s1 = new Solution_0014();
-        System.out.println(s1.longestCommonPrefix(arr));
         System.out.println();
+        ListNode ptr = llA.next;
+        while (ptr.next != null) {
+            System.out.println(ptr.val);
+            ptr = ptr.next;
+        }
     }
 
 
