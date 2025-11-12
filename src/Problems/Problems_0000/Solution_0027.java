@@ -4,42 +4,35 @@ public class Solution_0027 {
 
     public int removeElement(int[] nums, int val) {
 
+        int size = nums.length;
+        int pos = 0;
+
         int count=0;
-        for (int i = 0; i < nums.length; i++) {
+        for (int i = 0; i < size; i++) {
             if(nums[i] == val) {
                 count++;
             }
         }
 
 
-        for(int i=0;i<count;i++) {
+        for(int i=0;i<size;i++) {
+            if(pos >= count) {break;}
             if(nums[i] == val) {
                 nums = shiftLefter(nums, i);
+                pos++;
                 i--;
-                count--;
             }
         }
 
-        System.out.println();
-        for (int i = 0; i < nums.length; i++) {
-            System.out.print(nums[i]+", ");
-        }
-
-
-        return count;
+        return nums.length-count;
     }
 
     public int[] shiftLefter(int[] nums, int start) {
 
-        System.out.println("Getting here");
         for(int i=start;i<nums.length-1;i++) {
-            System.out.println(nums[i]+"--"+nums[i+1]);
             nums[i] = nums[i+1];
         }
 
-        for (int i = 0; i < nums.length; i++) {
-            System.out.print(nums[i]+", ");
-        }
         return nums;
 
     }

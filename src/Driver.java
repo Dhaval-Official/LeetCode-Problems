@@ -43,8 +43,8 @@ public class Driver {
         int[] arr = {0,1,2,2,3,0,4,2};
         int val = 2;
 
-        int count = s.removeElement(arr,val);
-        System.out.println(count);
+        int vals = s.removeElement(arr,val);
+        System.out.println(vals);
 
 
     }
