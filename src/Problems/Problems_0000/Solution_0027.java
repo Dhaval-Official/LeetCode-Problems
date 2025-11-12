@@ -37,7 +37,4 @@ public class Solution_0027 {
 
     }
 
-
-
-
 }
