@@ -7,7 +7,7 @@ public class Solution_0026 {
         int[] newnums = new int[nums.length];
 
 
-        int a;
+
 
         return  9;
     }
