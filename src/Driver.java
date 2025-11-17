@@ -1,4 +1,5 @@
 import Problems.Problems_0000.Solution_0014;
+import Problems.Problems_0000.Solution_0020;
 import Problems.Problems_0000.Solution_0027;
 import common.ListNode;
 
@@ -38,13 +39,10 @@ public class Driver {
 //            System.out.println(ptr.val);
 //            ptr = ptr.next;
 //        }
-        Solution_0027 s = new Solution_0027();
+        Solution_0020 s20 = new Solution_0020();
+        String s = "()[]{}{";
 
-        int[] arr = {0,1,2,2,3,0,4,2};
-        int val = 2;
-
-        int vals = s.removeElement(arr,val);
-        System.out.println(vals);
+        System.out.println(s20.isValid(s));
 
 
     }
