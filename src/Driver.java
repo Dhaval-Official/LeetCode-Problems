@@ -1,6 +1,7 @@
 import Problems.Problems_0000.Solution_0014;
 import Problems.Problems_0000.Solution_0020;
 import Problems.Problems_0000.Solution_0027;
+import Problems.Problems_0000.Solution_0028;
 import common.ListNode;
 
 public class Driver {
@@ -39,10 +40,10 @@ public class Driver {
 //            System.out.println(ptr.val);
 //            ptr = ptr.next;
 //        }
-        Solution_0020 s20 = new Solution_0020();
-        String s = "()[]{}{";
+        Solution_0028 s28 = new Solution_0028();
+        String haystack = "Miissippi", needle = "issip";
 
-        System.out.println(s20.isValid(s));
+        System.out.println(s28.strStr(haystack,needle));
 
 
     }
