@@ -5,7 +5,7 @@ import common.ListNode;
 class Solution_0021 {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
 
-        ListNode answer = new ListNode(69);
+        ListNode answer = new ListNode();
         ListNode answerHead = answer;
         int loop = 0;
 
@@ -17,7 +17,7 @@ class Solution_0021 {
             }
 
             if(list2 == null) {
-                System.out.println("it ends here");
+//                System.out.println("it ends here");
                 answer.next = list1;
                 break;
             }
@@ -31,7 +31,7 @@ class Solution_0021 {
             }
 
             answer = answer.next;
-            System.out.print(answer.val+" ");
+//            System.out.print(answer.val+" ");
 
 
         }
