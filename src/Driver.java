@@ -1,7 +1,4 @@
-import Problems.Problems_0000.Solution_0014;
-import Problems.Problems_0000.Solution_0020;
-import Problems.Problems_0000.Solution_0027;
-import Problems.Problems_0000.Solution_0028;
+import Problems.Problems_0000.*;
 import common.ListNode;
 
 public class Driver {
@@ -40,10 +37,9 @@ public class Driver {
 //            System.out.println(ptr.val);
 //            ptr = ptr.next;
 //        }
-        Solution_0028 s28 = new Solution_0028();
-        String haystack = "Miissippi", needle = "issip";
-
-        System.out.println(s28.strStr(haystack,needle));
+        int[] arr = {1,1,2};
+        Solution_0026 s26 = new Solution_0026();
+        System.out.println(s26.removeDuplicates(arr));
 
 
     }
