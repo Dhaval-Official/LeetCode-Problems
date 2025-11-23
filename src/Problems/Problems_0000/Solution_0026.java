@@ -14,7 +14,7 @@ public class Solution_0026 {
             j++;
         }
 
-        return i+1;
+        return i++;
     }
 }
 
