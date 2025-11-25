@@ -37,9 +37,9 @@ public class Driver {
 //            System.out.println(ptr.val);
 //            ptr = ptr.next;
 //        }
-        int[] arr = {1,1,2};
-        Solution_0026 s26 = new Solution_0026();
-        System.out.println(s26.removeDuplicates(arr));
+        int[] arr = {1,3,5,6};
+        Solution_0035 s35 = new Solution_0035();
+        System.out.println(s35.searchInsert(arr,2));
 
 
     }
