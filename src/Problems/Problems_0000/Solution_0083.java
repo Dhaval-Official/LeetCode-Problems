@@ -14,22 +14,16 @@ public class Solution_0083 {
 
         while(fast != null) {
 
-
             if(slow.val == fast.val) {
                 fast = fast.next;
-                if(fast == null) {
-                    // System.out.print("wola");
-                    slow.next = null;
-                    break;
-                }
             } else {
-                // System.out.print(slow.val+"->");
                 slow.next = fast;
                 slow = slow.next;
-
             }
+
         }
-        System.out.println();
+        slow.next = null;
+        // System.out.println();
         return head;
     }
 }
