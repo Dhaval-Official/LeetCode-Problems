@@ -11,6 +11,7 @@ public class Solution_0088 {
             return;
         }
 
+
         int loc = 0, i=0;
         while(i<n) {
 
