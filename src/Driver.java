@@ -1,4 +1,5 @@
 import Problems.Problems_0000.*;
+import Problems.Problems_1900.Solution_1929;
 import common.ListNode;
 
 public class Driver {
@@ -38,9 +39,12 @@ public class Driver {
 //            ptr = ptr.next;
 //        }
         int[] arr = {1,3,5,6};
-        Solution_0035 s35 = new Solution_0035();
-        System.out.println(s35.searchInsert(arr,2));
-
+        Solution_1929 s29 = new Solution_1929();
+        int[] res = s29.getConcatenation(arr);
+        System.out.println();
+        for (int i = 0; i < res.length; i++) {
+            System.out.print(res[i]+", ");
+        }
 
     }
 
