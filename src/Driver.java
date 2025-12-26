@@ -1,4 +1,5 @@
 import Problems.Problems_0000.*;
+import Problems.Problems_1400.Solution_1470;
 import Problems.Problems_1900.Solution_1929;
 import common.ListNode;
 
@@ -38,9 +39,9 @@ public class Driver {
 //            System.out.println(ptr.val);
 //            ptr = ptr.next;
 //        }
-        int[] arr = {1,3,5,6};
-        Solution_1929 s29 = new Solution_1929();
-        int[] res = s29.getConcatenation(arr);
+        int[] arr = {1,1,1,2,2,2};
+        Solution_1470 s29 = new Solution_1470();
+        int[] res = s29.shuffle(arr,3);
         System.out.println();
         for (int i = 0; i < res.length; i++) {
             System.out.print(res[i]+", ");
