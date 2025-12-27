@@ -2,6 +2,7 @@ import Problems.Problems_0000.*;
 import Problems.Problems_0400.Solution_0485;
 import Problems.Problems_1400.Solution_1470;
 import Problems.Problems_1900.Solution_1929;
+import Problems.Problems_2400.Solution_2402;
 import common.ListNode;
 
 public class Driver {
@@ -40,10 +41,12 @@ public class Driver {
 //            System.out.println(ptr.val);
 //            ptr = ptr.next;
 //        }
-        int[] arr = {1,1,0,1,1,1};
-        Solution_0485 s29 = new Solution_0485();
-        int res = s29.findMaxConsecutiveOnes(arr);
-        System.out.println(res);
+        int[] arr = {3,2,3,4,6,5};
+        Solution_2402 s29 = new Solution_2402();
+        int[] res = s29.findErrorNums(arr);
+        System.out.println();
+        System.out.println(res[0]);
+        System.out.println(res[1]);
 //        for (int i = 0; i < res.length; i++) {
 //            System.out.print(res[i]+", ");
 //        }
