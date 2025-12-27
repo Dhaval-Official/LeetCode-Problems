@@ -5,13 +5,26 @@ import java.util.HashSet;
 
 public class Solution_2402 {
     public int[] findErrorNums(int[] nums) {
-        int[] arr = new int[2];
-//        HashSet<Integer> hs = new HashSet<Integer>();
-        Arrays.sort(nums);
+        int dup = -1, miss = -1;
+
+        // Step 1: Find duplicate
         for (int i = 0; i < nums.length; i++) {
-            System.out.println(i);
+            int index = Math.abs(nums[i]) - 1;
+            if (nums[index] < 0) {
+                dup = Math.abs(nums[i]);
+            } else {
+                nums[index] = -nums[index];
+            }
         }
 
-        return arr;
+        // Step 2: Find missing
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] > 0) {
+                miss = i + 1;
+                break;
+            }
+        }
+
+        return new int[]{dup, miss};
     }
 }
