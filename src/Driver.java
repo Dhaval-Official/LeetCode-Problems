@@ -1,4 +1,5 @@
 import Problems.Problems_0000.*;
+import Problems.Problems_0400.Solution_0485;
 import Problems.Problems_1400.Solution_1470;
 import Problems.Problems_1900.Solution_1929;
 import common.ListNode;
@@ -39,13 +40,13 @@ public class Driver {
 //            System.out.println(ptr.val);
 //            ptr = ptr.next;
 //        }
-        int[] arr = {1,1,1,2,2,2};
-        Solution_1470 s29 = new Solution_1470();
-        int[] res = s29.shuffle(arr,3);
-        System.out.println();
-        for (int i = 0; i < res.length; i++) {
-            System.out.print(res[i]+", ");
-        }
+        int[] arr = {1,1,0,1,1,1};
+        Solution_0485 s29 = new Solution_0485();
+        int res = s29.findMaxConsecutiveOnes(arr);
+        System.out.println(res);
+//        for (int i = 0; i < res.length; i++) {
+//            System.out.print(res[i]+", ");
+//        }
 
     }
 
