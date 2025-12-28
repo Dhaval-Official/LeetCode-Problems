@@ -41,12 +41,12 @@ public class Driver {
 //            System.out.println(ptr.val);
 //            ptr = ptr.next;
 //        }
-        int[] arr = {3,2,3,4,6,5};
-        Solution_2402 s29 = new Solution_2402();
-        int[] res = s29.findErrorNums(arr);
-        System.out.println();
-        System.out.println(res[0]);
-        System.out.println(res[1]);
+        int[] arr = {1,3,5,6};
+        Solution_0035 s = new Solution_0035();
+        int res = s.searchInsert(arr,7);
+        System.out.println(res);
+//        System.out.println(res[0]);
+//        System.out.println(res[1]);
 //        for (int i = 0; i < res.length; i++) {
 //            System.out.print(res[i]+", ");
 //        }
