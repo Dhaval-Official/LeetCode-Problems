@@ -42,8 +42,8 @@ public class Driver {
 //            ptr = ptr.next;
 //        }
         int[] arr = {1,3,5,6};
-        Solution_0035 s = new Solution_0035();
-        int res = s.searchInsert(arr,7);
+        Solution_0058 s = new Solution_0058();
+        int res = s.lengthOfLastWord("   fly me   to   the moon  ");
         System.out.println(res);
 //        System.out.println(res[0]);
 //        System.out.println(res[1]);
