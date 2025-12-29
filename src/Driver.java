@@ -42,8 +42,12 @@ public class Driver {
 //            ptr = ptr.next;
 //        }
         int[] arr = {1,3,5,6};
-        Solution_0058 s = new Solution_0058();
-        int res = s.lengthOfLastWord("   fly me   to   the moon  ");
+        String a =   "1010";
+        String b = "111011";
+        String c = "11001";
+        Solution_0067 s = new Solution_0067();
+        String res = s.addBinary(a,b);
+
         System.out.println(res);
 //        System.out.println(res[0]);
 //        System.out.println(res[1]);
