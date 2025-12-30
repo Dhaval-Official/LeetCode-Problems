@@ -1,6 +1,7 @@
 import Problems.Problems_0000.*;
 import Problems.Problems_0400.Solution_0485;
 import Problems.Problems_1400.Solution_1470;
+import Problems.Problems_1600.Solution_1668;
 import Problems.Problems_1900.Solution_1929;
 import Problems.Problems_2300.Solution_2315;
 import Problems.Problems_2400.Solution_2402;
@@ -43,11 +44,10 @@ public class Driver {
 //            ptr = ptr.next;
 //        }
         int[] arr = {1,3,5,6};
-        String a =   "1010";
-        String b = "111011";
-        String c = "11001";
-        Solution_2315 s = new Solution_2315();
-        int res = s.countAsterisks("yo|uar|e**|b|e***au|tifu|l");
+
+        Solution_1668 s = new Solution_1668();
+
+        int res = s.maxRepeating("aaabaaaabaaabaaaabaaaabaaaabaaaaba","aaaba");
 
         System.out.println(res);
 //        System.out.println(res[0]);
