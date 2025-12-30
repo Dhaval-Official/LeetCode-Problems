@@ -2,6 +2,7 @@ import Problems.Problems_0000.*;
 import Problems.Problems_0400.Solution_0485;
 import Problems.Problems_1400.Solution_1470;
 import Problems.Problems_1900.Solution_1929;
+import Problems.Problems_2300.Solution_2315;
 import Problems.Problems_2400.Solution_2402;
 import common.ListNode;
 
@@ -45,8 +46,8 @@ public class Driver {
         String a =   "1010";
         String b = "111011";
         String c = "11001";
-        Solution_0067 s = new Solution_0067();
-        String res = s.addBinary(a,b);
+        Solution_2315 s = new Solution_2315();
+        int res = s.countAsterisks("yo|uar|e**|b|e***au|tifu|l");
 
         System.out.println(res);
 //        System.out.println(res[0]);
