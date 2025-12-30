@@ -2,6 +2,7 @@ import Problems.Problems_0000.*;
 import Problems.Problems_0400.Solution_0485;
 import Problems.Problems_1400.Solution_1470;
 import Problems.Problems_1600.Solution_1668;
+import Problems.Problems_1700.Solution_1725;
 import Problems.Problems_1900.Solution_1929;
 import Problems.Problems_2300.Solution_2315;
 import Problems.Problems_2400.Solution_2402;
@@ -43,11 +44,11 @@ public class Driver {
 //            System.out.println(ptr.val);
 //            ptr = ptr.next;
 //        }
-        int[] arr = {1,3,5,6};
+        int[][] arr = {{2,3},{3,7},{4,3},{3,7},{6,7}};
 
-        Solution_1668 s = new Solution_1668();
+        Solution_1725 s = new Solution_1725();
 
-        int res = s.maxRepeating("aaabaaaabaaabaaaabaaaabaaaabaaaaba","aaaba");
+        int res = s.countGoodRectangles(arr);
 
         System.out.println(res);
 //        System.out.println(res[0]);
