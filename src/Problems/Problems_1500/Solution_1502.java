@@ -28,8 +28,6 @@ public class Solution_1502 {
                 }
             }
 
-
-
         }
 
         return true;
