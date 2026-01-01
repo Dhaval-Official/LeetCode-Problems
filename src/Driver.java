@@ -7,6 +7,7 @@ import Problems.Problems_1700.Solution_1725;
 import Problems.Problems_1900.Solution_1929;
 import Problems.Problems_2300.Solution_2315;
 import Problems.Problems_2400.Solution_2402;
+import Problems.Problems_3400.Solution_3492;
 import common.ListNode;
 
 public class Driver {
@@ -47,9 +48,9 @@ public class Driver {
 //        }
         int[] arr = {1,2,3,0,-4,-1,-3,-2,5,4};
 
-        Solution_1502 s = new Solution_1502();
+        Solution_3492 s = new Solution_3492();
 
-        boolean res = s.canMakeArithmeticProgression(arr);
+        int res = s.maxContainers(1,3,2);
 
         System.out.println(res);
 //        System.out.println(res[0]);
