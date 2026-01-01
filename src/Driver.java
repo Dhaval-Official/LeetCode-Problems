@@ -1,6 +1,7 @@
 import Problems.Problems_0000.*;
 import Problems.Problems_0400.Solution_0485;
 import Problems.Problems_1400.Solution_1470;
+import Problems.Problems_1500.Solution_1502;
 import Problems.Problems_1600.Solution_1668;
 import Problems.Problems_1700.Solution_1725;
 import Problems.Problems_1900.Solution_1929;
@@ -44,11 +45,11 @@ public class Driver {
 //            System.out.println(ptr.val);
 //            ptr = ptr.next;
 //        }
-        int[][] arr = {{2,3},{3,7},{4,3},{3,7},{6,7}};
+        int[] arr = {1,2,3,0,-4,-1,-3,-2,5,4};
 
-        Solution_1725 s = new Solution_1725();
+        Solution_1502 s = new Solution_1502();
 
-        int res = s.countGoodRectangles(arr);
+        boolean res = s.canMakeArithmeticProgression(arr);
 
         System.out.println(res);
 //        System.out.println(res[0]);
