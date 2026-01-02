@@ -7,6 +7,7 @@ import Problems.Problems_1700.Solution_1725;
 import Problems.Problems_1900.Solution_1929;
 import Problems.Problems_2300.Solution_2315;
 import Problems.Problems_2400.Solution_2402;
+import Problems.Problems_2400.Solution_2465;
 import Problems.Problems_3400.Solution_3492;
 import common.ListNode;
 
@@ -46,11 +47,11 @@ public class Driver {
 //            System.out.println(ptr.val);
 //            ptr = ptr.next;
 //        }
-        int[] arr = {1,2,3,0,-4,-1,-3,-2,5,4};
+        int[] arr = {9,5,7,8,7,9,8,2,0,7};
 
-        Solution_3492 s = new Solution_3492();
+        Solution_2465 s = new Solution_2465();
 
-        int res = s.maxContainers(1,3,2);
+        int res = s.distinctAverages(arr);
 
         System.out.println(res);
 //        System.out.println(res[0]);
