@@ -1,5 +1,6 @@
 import Problems.Problems_0000.*;
 import Problems.Problems_0400.Solution_0485;
+import Problems.Problems_1300.Solution_1394;
 import Problems.Problems_1400.Solution_1460;
 import Problems.Problems_1400.Solution_1470;
 import Problems.Problems_1500.Solution_1502;
@@ -48,12 +49,14 @@ public class Driver {
 //            System.out.println(ptr.val);
 //            ptr = ptr.next;
 //        }
-        int[] arr = {3,7,9,11};
+        int[] arr = {1,2,2,3,3,2};
         int[] target = {3,7,11,9};
 
-        Solution_1460 s = new Solution_1460();
+        Solution_1394 s = new
+        Solution_1394();
 
-        boolean  res = s.canBeEqual(target,arr);
+        int  res = s
+                .findLucky(arr);
 
         System.out.println(res);
 //        System.out.println(res[0]);
