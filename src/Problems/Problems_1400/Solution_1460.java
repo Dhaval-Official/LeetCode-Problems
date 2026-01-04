@@ -53,3 +53,28 @@ public class Solution_1460 {
     }
 
 }
+
+/* better space time
+* class Solution {
+    public boolean canBeEqual(int[] target, int[] arr) {
+
+        Map<Integer, Integer> freq = new HashMap<>();
+
+        for (int num : target) {
+            freq.put(num, freq.getOrDefault(num, 0) + 1);
+        }
+
+        for (int num : arr) {
+            if (!freq.containsKey(num)) {
+                return false;
+            }
+            freq.put(num, freq.get(num) - 1);
+            if (freq.get(num) == 0) {
+                freq.remove(num);
+            }
+        }
+
+        return freq.isEmpty();
+    }
+}
+*/
