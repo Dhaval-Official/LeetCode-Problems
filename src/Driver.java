@@ -1,5 +1,6 @@
 import Problems.Problems_0000.*;
 import Problems.Problems_0400.Solution_0485;
+import Problems.Problems_1400.Solution_1460;
 import Problems.Problems_1400.Solution_1470;
 import Problems.Problems_1500.Solution_1502;
 import Problems.Problems_1600.Solution_1668;
@@ -47,11 +48,12 @@ public class Driver {
 //            System.out.println(ptr.val);
 //            ptr = ptr.next;
 //        }
-        int[] arr = {9,5,7,8,7,9,8,2,0,7};
+        int[] arr = {3,7,9,11};
+        int[] target = {3,7,11,9};
 
-        Solution_2465 s = new Solution_2465();
+        Solution_1460 s = new Solution_1460();
 
-        int res = s.distinctAverages(arr);
+        boolean  res = s.canBeEqual(target,arr);
 
         System.out.println(res);
 //        System.out.println(res[0]);
