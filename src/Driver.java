@@ -7,6 +7,7 @@ import Problems.Problems_1500.Solution_1502;
 import Problems.Problems_1600.Solution_1668;
 import Problems.Problems_1700.Solution_1725;
 import Problems.Problems_1900.Solution_1929;
+import Problems.Problems_2200.Solution_2259;
 import Problems.Problems_2300.Solution_2315;
 import Problems.Problems_2400.Solution_2402;
 import Problems.Problems_2400.Solution_2465;
@@ -52,11 +53,11 @@ public class Driver {
         int[] arr = {1,2,2,3,3,2};
         int[] target = {3,7,11,9};
 
-        Solution_1394 s = new
-        Solution_1394();
+        Solution_2259 s = new
+                Solution_2259();
 
-        int  res = s
-                .findLucky(arr);
+        String  res = s
+                .removeDigit("7547197",'7');
 
         System.out.println(res);
 //        System.out.println(res[0]);
