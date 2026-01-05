@@ -11,6 +11,7 @@ import Problems.Problems_2200.Solution_2259;
 import Problems.Problems_2300.Solution_2315;
 import Problems.Problems_2400.Solution_2402;
 import Problems.Problems_2400.Solution_2465;
+import Problems.Problems_2500.Solution_2500;
 import Problems.Problems_3400.Solution_3492;
 import common.ListNode;
 
@@ -52,12 +53,13 @@ public class Driver {
 //        }
         int[] arr = {1,2,2,3,3,2};
         int[] target = {3,7,11,9};
+        int[][] arr2 = {{1,2,4},{3,3,1}};
 
-        Solution_2259 s = new
-                Solution_2259();
+        Solution_2500 s = new
+                Solution_2500();
 
-        String  res = s
-                .removeDigit("7547197",'7');
+        int res = s
+                .deleteGreatestValue(arr2);
 
         System.out.println(res);
 //        System.out.println(res[0]);
