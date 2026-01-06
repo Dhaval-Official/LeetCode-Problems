@@ -1,4 +1,5 @@
 import Problems.All.Solution_2500;
+import Problems.Problems_1700.Solution_1716;
 import common.ListNode;
 
 public class Driver {
@@ -41,11 +42,11 @@ public class Driver {
         int[] target = {3,7,11,9};
         int[][] arr2 = {{1,2,4},{3,3,1}};
 
-        Solution_2500 s = new
-                Solution_2500();
+        Solution_1716 s = new
+                Solution_1716();
 
         int res = s
-                .deleteGreatestValue(arr2);
+                .totalMoney(4);
 
         System.out.println(res);
 //        System.out.println(res[0]);
