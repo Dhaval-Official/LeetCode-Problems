@@ -1,7 +1,4 @@
-package Problems.Problems_2400;
-
-import java.util.Arrays;
-import java.util.HashSet;
+package Problems.All;
 
 public class Solution_2402 {
     public int[] findErrorNums(int[] nums) {

@@ -1,18 +1,4 @@
-import Problems.Problems_0000.*;
-import Problems.Problems_0400.Solution_0485;
-import Problems.Problems_1300.Solution_1394;
-import Problems.Problems_1400.Solution_1460;
-import Problems.Problems_1400.Solution_1470;
-import Problems.Problems_1500.Solution_1502;
-import Problems.Problems_1600.Solution_1668;
-import Problems.Problems_1700.Solution_1725;
-import Problems.Problems_1900.Solution_1929;
-import Problems.Problems_2200.Solution_2259;
-import Problems.Problems_2300.Solution_2315;
-import Problems.Problems_2400.Solution_2402;
-import Problems.Problems_2400.Solution_2465;
-import Problems.Problems_2500.Solution_2500;
-import Problems.Problems_3400.Solution_3492;
+import Problems.All.Solution_2500;
 import common.ListNode;
 
 public class Driver {
