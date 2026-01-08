@@ -1,4 +1,4 @@
-package Problems.Problems_2200;
+package Problems.All;
 
 import common.TreeNode;
 

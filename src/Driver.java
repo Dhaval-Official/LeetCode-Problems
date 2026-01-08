@@ -1,5 +1,4 @@
-import Problems.All.Solution_2500;
-import Problems.Problems_1700.Solution_1716;
+import Problems.All.Solution_1716;
 import common.ListNode;
 
 public class Driver {

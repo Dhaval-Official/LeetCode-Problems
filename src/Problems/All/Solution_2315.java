@@ -1,4 +1,4 @@
-package Problems.Problems_2300;
+package Problems.All;
 
 public class Solution_2315 {
     public int countAsterisks(String s) {

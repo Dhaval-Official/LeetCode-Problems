@@ -1,4 +1,4 @@
-package Problems.Problems_2200;
+package Problems.All;
 
 public class Solution_2259 {
     public String removeDigit(String number, char digit) {

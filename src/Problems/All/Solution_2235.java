@@ -1,4 +1,4 @@
-package Problems.Problems_2200;
+package Problems.All;
 
 class Solution_2235 {
     public int sum(int num1, int num2) {

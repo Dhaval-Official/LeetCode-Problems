@@ -1,4 +1,4 @@
-package Problems.Problems_1700;
+package Problems.All;
 
 public class Solution_1725 {
     public int countGoodRectangles(int[][] rectangles) {
