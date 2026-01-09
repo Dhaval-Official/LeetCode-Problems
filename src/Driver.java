@@ -1,4 +1,5 @@
 import Problems.All.Solution_1716;
+import Problems.Problems_Mix.Solution_3318;
 import common.ListNode;
 
 public class Driver {
@@ -37,22 +38,22 @@ public class Driver {
 //            System.out.println(ptr.val);
 //            ptr = ptr.next;
 //        }
-        int[] arr = {1,2,2,3,3,2};
+        int[] arr = {1,1,2,2,3,4,2,3};
         int[] target = {3,7,11,9};
         int[][] arr2 = {{1,2,4},{3,3,1}};
 
-        Solution_1716 s = new
-                Solution_1716();
+        Solution_3318 s = new
+                Solution_3318();
 
-        int res = s
-                .totalMoney(4);
+        int[] res = s
+                .findXSum(arr, 6,2);
 
-        System.out.println(res);
+//        System.out.println(res);
 //        System.out.println(res[0]);
 //        System.out.println(res[1]);
-//        for (int i = 0; i < res.length; i++) {
-//            System.out.print(res[i]+", ");
-//        }
+        for (int i = 0; i < res.length; i++) {
+            System.out.print(res[i]+", ");
+        }
 
     }
 
