@@ -1,5 +1,5 @@
-import Problems.All.Solution_1716;
-import Problems.Problems_Mix.Solution_3318;
+import Problems.All.Solution_3318;
+import Problems.Problems_Mix.Solution_1796;
 import common.ListNode;
 
 public class Driver {
@@ -42,18 +42,18 @@ public class Driver {
         int[] target = {3,7,11,9};
         int[][] arr2 = {{1,2,4},{3,3,1}};
 
-        Solution_3318 s = new
-                Solution_3318();
+        Solution_1796 s = new
+                Solution_1796();
 
-        int[] res = s
-                .findXSum(arr, 6,2);
+        int res = s
+                .secondHighest("dfa12321afd");
 
-//        System.out.println(res);
+        System.out.println(res);
 //        System.out.println(res[0]);
 //        System.out.println(res[1]);
-        for (int i = 0; i < res.length; i++) {
-            System.out.print(res[i]+", ");
-        }
+//        for (int i = 0; i < res.length; i++) {
+//            System.out.print(res[i]+", ");
+//        }
 
     }
 

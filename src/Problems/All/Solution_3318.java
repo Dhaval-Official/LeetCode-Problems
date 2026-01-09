@@ -1,4 +1,4 @@
-package Problems.Problems_Mix;
+package Problems.All;
 
 import java.util.ArrayList;
 import java.util.HashMap;
