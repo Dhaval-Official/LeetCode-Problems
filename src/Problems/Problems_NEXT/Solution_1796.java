@@ -1,4 +1,4 @@
-package Problems.Problems_Mix;
+package Problems.Problems_NEXT;
 
 public class Solution_1796 {
     public int secondHighest(String s) {
