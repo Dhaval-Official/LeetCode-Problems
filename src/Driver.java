@@ -1,5 +1,6 @@
 import Problems.All.Solution_3318;
 import Problems.Problems_Mix.Solution_1796;
+import Problems.Problems_NEXT.Solution_1704;
 import common.ListNode;
 
 public class Driver {
@@ -42,11 +43,11 @@ public class Driver {
         int[] target = {3,7,11,9};
         int[][] arr2 = {{1,2,4},{3,3,1}};
 
-        Solution_1796 s = new
-                Solution_1796();
+        Solution_1704 s = new
+                Solution_1704();
 
-        int res = s
-                .secondHighest("dfa12321afd");
+        boolean res = s
+                .halvesAreAlike("teetbook");
 
         System.out.println(res);
 //        System.out.println(res[0]);
