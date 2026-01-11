@@ -1,4 +1,4 @@
-package Problems.Problems_1300;
+package Problems.All;
 
 import java.util.HashMap;
 

@@ -1,4 +1,4 @@
-package Problems.Problems_1300;
+package Problems.All;
 
 public class Solution_1365 {
     public int[] smallerNumbersThanCurrent(int[] nums) {
