@@ -10,7 +10,6 @@ public class Solution_0830 {
         List<Integer> temp;
         List<List<Integer>> ans = new ArrayList<>();
         int countcurr;
-        int iNext = 0;
 
         for (int i = 0; i < s.length(); i++) {
 
