@@ -1,5 +1,8 @@
 import Problems.All.Solution_3783;
+import Problems.Problems_NEXT.Solution_0830;
 import common.ListNode;
+
+import java.util.List;
 
 public class Driver {
 
@@ -41,11 +44,11 @@ public class Driver {
         int[] target = {3,7,11,9};
         int[][] arr2 = {{1,2,4},{3,3,1}};
 
-        Solution_3783 s = new
-                Solution_3783();
+        Solution_0830 s = new
+                Solution_0830();
 
-        int res = s
-                .mirrorDistance(100);
+        List<List<Integer>> res = s
+                .largeGroupPositions("abc");
 
         System.out.println(res);
 //        System.out.println(res[0]);
