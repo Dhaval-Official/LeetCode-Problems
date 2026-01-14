@@ -49,7 +49,7 @@ public class Driver {
                 Solution_2138();
 
         String[] res = s
-                .divideString("abcdefghij",3,'x');
+                .divideString("gsectbwqtcc",5,'x');
 
 //        System.out.println(res);
 //        System.out.println(res[0]);
