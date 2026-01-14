@@ -1,6 +1,7 @@
 import Problems.All.Solution_3783;
 import Problems.Problems_NEXT.Solution_0830;
 import Problems.Problems_NEXT.Solution_2138;
+import Problems.Problems_NEXT.Solution_2739;
 import common.ListNode;
 
 import java.util.List;
@@ -45,18 +46,17 @@ public class Driver {
         int[] target = {3,7,11,9};
         int[][] arr2 = {{1,2,4},{3,3,1}};
 
-        Solution_2138 s = new
-                Solution_2138();
+        Solution_2739 s = new
+                Solution_2739();
 
-        String[] res = s
-                .divideString("gsectbwqtcc",5,'x');
+        int res = s
+                .distanceTraveled(10,1);
 
-//        System.out.println(res);
+        System.out.println(res);
 //        System.out.println(res[0]);
-//        System.out.println(res[1]);
-        for (int i = 0; i < res.length; i++) {
-            System.out.print(res[i]+", ");
-        }
+//        for (int i = 0; i < res.length; i++) {
+//            System.out.print(res[i]+", ");
+//        }
 
     }
 
