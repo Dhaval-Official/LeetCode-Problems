@@ -1,11 +1,5 @@
-import Problems.All.Solution_3783;
-import Problems.Problems_NEXT.Solution_0830;
-import Problems.Problems_NEXT.Solution_2138;
-import Problems.Problems_NEXT.Solution_2379;
-import Problems.Problems_NEXT.Solution_2739;
+import Problems.All.Solution_2379;
 import common.ListNode;
-
-import java.util.List;
 
 public class Driver {
 
