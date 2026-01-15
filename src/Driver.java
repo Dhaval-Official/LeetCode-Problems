@@ -1,6 +1,7 @@
 import Problems.All.Solution_3783;
 import Problems.Problems_NEXT.Solution_0830;
 import Problems.Problems_NEXT.Solution_2138;
+import Problems.Problems_NEXT.Solution_2379;
 import Problems.Problems_NEXT.Solution_2739;
 import common.ListNode;
 
@@ -46,11 +47,11 @@ public class Driver {
         int[] target = {3,7,11,9};
         int[][] arr2 = {{1,2,4},{3,3,1}};
 
-        Solution_2739 s = new
-                Solution_2739();
+        Solution_2379 s = new
+                Solution_2379();
 
         int res = s
-                .distanceTraveled(10,1);
+                .minimumRecolors("BWWWBB",6);
 
         System.out.println(res);
 //        System.out.println(res[0]);
