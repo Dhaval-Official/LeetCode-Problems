@@ -1,4 +1,4 @@
-package Problems.Problems_0400;
+package Problems.All;
 
 public class Solution_0498 {
     int[] ans;

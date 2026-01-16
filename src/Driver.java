@@ -1,5 +1,8 @@
 import Problems.All.Solution_2379;
+import Problems.Problems_NEXT.Solution_3417;
 import common.ListNode;
+
+import java.util.List;
 
 public class Driver {
 
@@ -39,13 +42,13 @@ public class Driver {
 //        }
         int[] arr = {1,1,2,2,3,4,2,3};
         int[] target = {3,7,11,9};
-        int[][] arr2 = {{1,2,4},{3,3,1}};
+        int[][] arr2 = {{1,2,3},{4,5,6},{7,8,9}};
 
-        Solution_2379 s = new
-                Solution_2379();
+        Solution_3417 s = new
+                Solution_3417();
 
-        int res = s
-                .minimumRecolors("BWWWBB",6);
+        List res = s
+                .zigzagTraversal(arr2);
 
         System.out.println(res);
 //        System.out.println(res[0]);

@@ -1,4 +1,4 @@
-package Problems.Problems_0400;
+package Problems.All;
 
 import java.util.ArrayList;
 import java.util.List;
