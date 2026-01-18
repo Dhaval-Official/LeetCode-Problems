@@ -1,4 +1,4 @@
-package Problems.Problems_0100;
+package Problems.All;
 
 public class Solution_0121 {
 
