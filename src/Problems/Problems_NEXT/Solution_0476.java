@@ -4,11 +4,9 @@ public class Solution_0476 {
     public int findComplement(int num) {
 
 //        System.out.println("PS: "+num);
-
         int ans = 0;
         int power = 1;
 
-        //binary's compliment conversion
         while (num > 0) {
             if (num%2 == 0) {
                 ans += power;
