@@ -50,7 +50,7 @@ public class Driver {
                 Solution_0476();
 
         int res = s
-                .findComplement(2);
+                .findComplement(18);
 
         System.out.println(res);
 //        System.out.println(res[0]);
