@@ -1,10 +1,7 @@
-import Problems.All.Solution_2379;
-import Problems.Problems_NEXT.Solution_0441;
-import Problems.Problems_NEXT.Solution_0476;
-import Problems.Problems_NEXT.Solution_3417;
+import Problems.All.Solution_0476;
+import Problems.Problems_NEXT.Solution_2553;
+import Problems.Problems_NEXT.Solution_2748;
 import common.ListNode;
-
-import java.util.List;
 
 public class Driver {
 
@@ -42,15 +39,15 @@ public class Driver {
 //            System.out.println(ptr.val);
 //            ptr = ptr.next;
 //        }
-        int[] arr = {1,1,2,2,3,4,2,3};
+        int[] arr = {2,5,1,4};
         int[] target = {3,7,11,9};
         int[][] arr2 = {{1,2,3},{4,5,6},{7,8,9}};
 
-        Solution_0476 s = new
-                Solution_0476();
+        Solution_2748 s = new
+                Solution_2748();
 
         int res = s
-                .findComplement(18);
+                .countBeautifulPairs(arr);
 
         System.out.println(res);
 //        System.out.println(res[0]);
