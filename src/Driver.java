@@ -1,7 +1,4 @@
-import Problems.All.Solution_0476;
-import Problems.All.Solution_2544;
-import Problems.Problems_NEXT.Solution_2553;
-import Problems.Problems_NEXT.Solution_2748;
+import Problems.All.Solution_2180;
 import common.ListNode;
 
 public class Driver {
@@ -44,11 +41,11 @@ public class Driver {
         int[] target = {3,7,11,9};
         int[][] arr2 = {{1,2,3},{4,5,6},{7,8,9}};
 
-        Solution_2544 s = new
-                Solution_2544();
+        Solution_2180 s = new
+                Solution_2180();
 
         int res = s
-                .alternateDigitSum(886996);
+                .countEven(9);
 
         System.out.println(res);
 //        System.out.println(res[0]);
