@@ -1,4 +1,5 @@
 import Problems.All.Solution_0476;
+import Problems.All.Solution_2544;
 import Problems.Problems_NEXT.Solution_2553;
 import Problems.Problems_NEXT.Solution_2748;
 import common.ListNode;
@@ -43,11 +44,11 @@ public class Driver {
         int[] target = {3,7,11,9};
         int[][] arr2 = {{1,2,3},{4,5,6},{7,8,9}};
 
-        Solution_2748 s = new
-                Solution_2748();
+        Solution_2544 s = new
+                Solution_2544();
 
         int res = s
-                .countBeautifulPairs(arr);
+                .alternateDigitSum(886996);
 
         System.out.println(res);
 //        System.out.println(res[0]);
