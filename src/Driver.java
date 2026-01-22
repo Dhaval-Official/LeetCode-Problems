@@ -1,4 +1,5 @@
 import Problems.All.Solution_2180;
+import Problems.Problems_NEXT.Solution_1945;
 import common.ListNode;
 
 public class Driver {
@@ -41,11 +42,12 @@ public class Driver {
         int[] target = {3,7,11,9};
         int[][] arr2 = {{1,2,3},{4,5,6},{7,8,9}};
 
-        Solution_2180 s = new
-                Solution_2180();
+        Solution_1945 s = new
+                Solution_1945();
 
         int res = s
-                .countEven(9);
+                .getLucky("leetcode",2)
+                ;
 
         System.out.println(res);
 //        System.out.println(res[0]);
