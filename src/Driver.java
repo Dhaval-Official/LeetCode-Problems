@@ -1,5 +1,6 @@
 import Problems.All.Solution_2180;
 import Problems.Problems_NEXT.Solution_1945;
+import Problems.Problems_NEXT.Solution_3701;
 import common.ListNode;
 
 public class Driver {
@@ -38,15 +39,15 @@ public class Driver {
 //            System.out.println(ptr.val);
 //            ptr = ptr.next;
 //        }
-        int[] arr = {2,5,1,4};
+        int[] arr = {1,3,5,7};
         int[] target = {3,7,11,9};
         int[][] arr2 = {{1,2,3},{4,5,6},{7,8,9}};
 
-        Solution_1945 s = new
-                Solution_1945();
+        Solution_3701 s = new
+                Solution_3701();
 
         int res = s
-                .getLucky("leetcode",2)
+                .alternatingSum(arr)
                 ;
 
         System.out.println(res);
