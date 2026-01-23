@@ -31,7 +31,7 @@ public class Main {
             }
 
         }
-
+        System.out.println(hm);
         for(Character c: hm.keySet()) {
 
             if(hm.get(c) < 2) {
