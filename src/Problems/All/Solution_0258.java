@@ -1,4 +1,4 @@
-package Problems.Problems_NEXT;
+package Problems.All;
 //solved earlier in oldID
 public class Solution_0258 {
 
