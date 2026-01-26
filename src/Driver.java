@@ -1,6 +1,8 @@
 import Problems.All.Solution_3300;
 import Problems.Problems_NEXT.Solution_1200;
 import Problems.Problems_NEXT.Solution_1984;
+import Problems.Problems_NEXT.Solution_2243;
+import Problems.Problems_NEXT.Solution_2520;
 import common.ListNode;
 
 import java.util.List;
@@ -45,11 +47,11 @@ public class Driver {
         int[] target = {3,7,11,9};
         int[][] arr2 = {{1,2,3},{4,5,6},{7,8,9}};
 
-        Solution_1984 s =
-                new Solution_1984();
+        Solution_2520 s =
+                new Solution_2520();
 
         int res = s
-                .minimumDifference(arr,6)
+                .countDigits(1248)
                 ;
         System.out.println();
         System.out.println(res);
