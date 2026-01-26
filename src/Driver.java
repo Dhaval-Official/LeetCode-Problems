@@ -1,5 +1,6 @@
 import Problems.All.Solution_3300;
 import Problems.Problems_NEXT.Solution_1200;
+import Problems.Problems_NEXT.Solution_1984;
 import common.ListNode;
 
 import java.util.List;
@@ -40,15 +41,15 @@ public class Driver {
 //            System.out.println(ptr.val);
 //            ptr = ptr.next;
 //        }
-        int[] arr = {3,8,-10,23,19,-4,-14,27};
+        int[] arr = {87063,61094,44530,21297,95857,93551,9918};
         int[] target = {3,7,11,9};
         int[][] arr2 = {{1,2,3},{4,5,6},{7,8,9}};
 
-        Solution_1200 s =
-                new Solution_1200();
+        Solution_1984 s =
+                new Solution_1984();
 
-        List res = s
-                .minimumAbsDifference(arr);
+        int res = s
+                .minimumDifference(arr,6)
                 ;
         System.out.println();
         System.out.println(res);
