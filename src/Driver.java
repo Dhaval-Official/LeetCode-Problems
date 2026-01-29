@@ -1,8 +1,5 @@
 import Problems.All.Solution_3300;
-import Problems.Problems_NEXT.Solution_1200;
-import Problems.Problems_NEXT.Solution_1984;
-import Problems.Problems_NEXT.Solution_2243;
-import Problems.Problems_NEXT.Solution_2520;
+import Problems.Problems_NEXT.*;
 import common.ListNode;
 
 import java.util.List;
@@ -47,11 +44,11 @@ public class Driver {
         int[] target = {3,7,11,9};
         int[][] arr2 = {{1,2,3},{4,5,6},{7,8,9}};
 
-        Solution_2520 s =
-                new Solution_2520();
+        Solution_0263 s =
+                new Solution_0263();
 
-        int res = s
-                .countDigits(1248)
+        boolean res = s
+                .isUgly(21);
                 ;
         System.out.println();
         System.out.println(res);
