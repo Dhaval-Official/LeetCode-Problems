@@ -1,4 +1,5 @@
-import Problems.All.Solution_0263;
+import Problems.All.Solution_0003;
+import Problems.Problems_NEXT.Solution_1695;
 import common.ListNode;
 
 public class Driver {
@@ -37,15 +38,15 @@ public class Driver {
 //            System.out.println(ptr.val);
 //            ptr = ptr.next;
 //        }
-        int[] arr = {87063,61094,44530,21297,95857,93551,9918};
+        int[] arr = {187,470,25,436,538,809,441,167,477,110,275,133,666,345,411,459,490,266,987,965,429,166,809,340,467,318,125,165,809,610,31,585,970,306,42,189,169,743,78,810,70,382,367,490,787,670,476,278,775,673,299,19,893,817,971,458,409,886,434};
         int[] target = {3,7,11,9};
         int[][] arr2 = {{1,2,3},{4,5,6},{7,8,9}};
 
-        Solution_0263 s =
-                new Solution_0263();
+        Solution_1695 s =
+                new Solution_1695();
 
-        boolean res = s
-                .isUgly(21);
+        int res = s
+                .maximumUniqueSubarray(arr)
                 ;
         System.out.println();
         System.out.println(res);
