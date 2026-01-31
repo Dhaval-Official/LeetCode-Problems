@@ -1,7 +1,6 @@
-package Problems.Problems_NEXT;
+package Problems.All;
 
 import java.util.HashSet;
-import java.util.Hashtable;
 
 public class Solution_1695 {
 
