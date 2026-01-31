@@ -48,7 +48,7 @@ public class Driver {
                 .maximumUniqueSubarray(arr)
                 ;
         System.out.println();
-        System.out.println(res );
+        System.out.println(res);
 //        System.out.println(res[0]);
 //        for (int i = 0; i < res.length; i++) {
 //            System.out.print(res[i]+", ");
