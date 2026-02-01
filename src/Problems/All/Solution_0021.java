@@ -1,4 +1,4 @@
-package Problems.Problems_0000;
+package Problems.All;
 
 import common.ListNode;
 
