@@ -1,4 +1,4 @@
 package Problems.Problems_NEXT;
 
-public class Solution_2283 {
+public class Solution_0831 {
 }
