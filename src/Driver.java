@@ -1,4 +1,4 @@
-import Problems.All.Solution_3010;
+import Problems.All.Solution_1208;
 import common.ListNode;
 
 public class Driver {
@@ -41,11 +41,11 @@ public class Driver {
         int[] target = {3,7,11,9};
         int[][] arr2 = {{1,2,3},{4,5,6},{7,8,9}};
 
-        Solution_3010 s =
-                new Solution_3010();
+        Solution_1208 s =
+                new Solution_1208();
 
         int res = s
-                .minimumCost(arr)
+                .equalSubstring("abcd","cdef",1);
                 ;
         System.out.println();
         System.out.println(res);
