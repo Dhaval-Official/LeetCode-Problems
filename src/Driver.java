@@ -1,4 +1,4 @@
-import Problems.All.Solution_1208;
+import Problems.All.Solution_3289;
 import common.ListNode;
 
 public class Driver {
@@ -37,22 +37,22 @@ public class Driver {
 //            System.out.println(ptr.val);
 //            ptr = ptr.next;
 //        }
-        int[] arr = {10,3,1,1};
+        int[] arr = {7,1,5,4,3,4,6,0,9,5,8,2};
         int[] target = {3,7,11,9};
         int[][] arr2 = {{1,2,3},{4,5,6},{7,8,9}};
 
-        Solution_1208 s =
-                new Solution_1208();
+        Solution_3289 s =
+                new Solution_3289();
 
-        int res = s
-                .equalSubstring("abcd","cdef",1);
+        int[] res = s
+                .getSneakyNumbers(arr);
                 ;
         System.out.println();
-        System.out.println(res);
+//        System.out.println(res);
 //        System.out.println(res[0]);
-//        for (int i = 0; i < res.length; i++) {
-//            System.out.print(res[i]+", ");
-//        }
+        for (int i = 0; i < res.length; i++) {
+            System.out.print(res[i]+", ");
+        }
 
     }
 
