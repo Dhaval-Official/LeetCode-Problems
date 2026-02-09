@@ -1,9 +1,5 @@
-import Problems.All.Solution_0442;
-import Problems.Problems_NEXT.Solution_0015;
-import Problems.Problems_NEXT.Solution_2243;
+import Problems.All.Solution_0387;
 import common.ListNode;
-
-import java.util.List;
 
 public class Driver {
 
@@ -41,15 +37,15 @@ public class Driver {
 //            System.out.println(ptr.val);
 //            ptr = ptr.next;
 //        }
-        int[] arr = {4,3,2,7,8,2,3,1};
+        int[] arr = {0,5,3};
         int[] target = {3,7,11,9};
         int[][] arr2 = {{1,2,3},{4,5,6},{7,8,9}};
 
-        Solution_2243 s =
-                new Solution_2243();
+        Solution_0387 s =
+                new Solution_0387();
 
-        String res = s
-                .digitSum("11111222223", 3)
+        int res = s
+                .firstUniqChar("aab");
                 ;
         System.out.println();
         System.out.println(res);
@@ -61,3 +57,4 @@ public class Driver {
     }
 
 }
+//
