@@ -1,4 +1,4 @@
-import Problems.All.Solution_0387;
+import Problems.All.Solution_2351;
 import common.ListNode;
 
 public class Driver {
@@ -41,14 +41,14 @@ public class Driver {
         int[] target = {3,7,11,9};
         int[][] arr2 = {{1,2,3},{4,5,6},{7,8,9}};
 
-        Solution_0387 s =
-                new Solution_0387();
+        Solution_2351 s =
+                new Solution_2351();
 
-        int res = s
-                .firstUniqChar("aab");
+        char res = s
+                .repeatedCharacter("abccbaacz")
                 ;
         System.out.println();
-        System.out.println(res);
+//        System.out.println(res);
 //        System.out.println(res[0]);
 //        for (int i = 0; i < res.length; i++) {
 //            System.out.print(res[i]+", ");
