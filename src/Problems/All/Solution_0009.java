@@ -6,20 +6,14 @@ public class Solution_0009 {
         if(x < 0) {return false;}
 
         int R,L;
-        int newLeft;
+        int newLeft = 0;
         L = x;
 
-        newLeft = 0;
-
-
         while (L > 0){
-
             R = L%10;
             newLeft = newLeft*10 + R;
 //            System.out.println(L+" "+R+" "+newLeft);
-
             L = L/10;
-
         };
 //        System.out.println(x);
 //        System.out.println(newLeft);
