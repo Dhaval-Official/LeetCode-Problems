@@ -1,4 +1,4 @@
-import Problems.All.Solution_1876;
+import Problems.All.Solution_0125;
 import common.ListNode;
 
 public class Driver {
@@ -18,8 +18,6 @@ public class Driver {
 
         ListNode llA = new ListNode(-69);
         ListNode llB = new ListNode(-69);
-
-
 
         ll0.next = ll1;
         ll1.next = ll2;
@@ -41,14 +39,13 @@ public class Driver {
         int[] target = {3,7,11,9};
         int[][] arr2 = {{1,2,3},{4,5,6},{7,8,9}};
 
-        Solution_1876 s =
-                new Solution_1876();
+        Solution_0125 s =
+                new Solution_0125();
 
-        int res = s
-                .countGoodSubstrings("aababcabc");
-                ;
         System.out.println();
-        System.out.println(res);
+        System.out.println(
+                s.isPalindrome("asd")
+        );
 //        System.out.println(res[0]);
 //        for (int i = 0; i < res.length; i++) {
 //            System.out.print(res[i]+", ");
