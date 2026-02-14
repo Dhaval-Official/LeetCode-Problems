@@ -1,4 +1,4 @@
-package Problems.Problems_NEXT;
+package Problems.All;
 
 import java.util.*;
 
