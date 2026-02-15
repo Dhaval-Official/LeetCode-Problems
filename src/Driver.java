@@ -1,11 +1,9 @@
-import Problems.All.Solution_0125;
-import Problems.Problems_NEXT.*;
+import Problems.All.*;
 import common.ListNode;
 
 public class Driver {
 
     public static void main(String[] args) {
-
 
         ListNode ll0 = new ListNode(0);
         ListNode ll1 = new ListNode(1);
@@ -29,7 +27,6 @@ public class Driver {
         ll6.next = ll7;
         ll7.next = ll8;
 
-
         System.out.println();
         ListNode ptr = llA.next;
 //        while (ptr.next != null) {
@@ -37,15 +34,16 @@ public class Driver {
 //            ptr = ptr.next;
 //        }
         int[] arr = {0,5,3};
+        String[] strArr = {"abc","car","ada","racecar","cool"};
         int[] target = {3,7,11,9};
         int[][] arr2 = {{1,2,3},{4,5,6},{7,8,9}};
 
-        Solution_0451 s =
-                new Solution_0451();
+        Solution_2108 s =
+                new Solution_2108();
 
         System.out.println();
         System.out.println(
-                s.frequencySort("tree")
+                s.firstPalindrome(strArr)
         );
 //        System.out.println(res[0]);
 //        for (int i = 0; i < res.length; i++) {
