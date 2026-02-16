@@ -1,3 +1,4 @@
+import Problems.Problems_NEXT.*;
 import Problems.All.*;
 import common.ListNode;
 
@@ -38,12 +39,12 @@ public class Driver {
         int[] target = {3,7,11,9};
         int[][] arr2 = {{1,2,3},{4,5,6},{7,8,9}};
 
-        Solution_2108 s =
-                new Solution_2108();
+        Solution_0190 s =
+                new Solution_0190();
 
         System.out.println();
         System.out.println(
-                s.firstPalindrome(strArr)
+                s.reverseBits(43261596)
         );
 //        System.out.println(res[0]);
 //        for (int i = 0; i < res.length; i++) {
