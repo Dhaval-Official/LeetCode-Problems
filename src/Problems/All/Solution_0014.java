@@ -32,7 +32,6 @@ public class Solution_0014 {
             }
         }
 
-
         return realcommon.toString();
     }
 
