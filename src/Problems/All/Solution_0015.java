@@ -1,4 +1,4 @@
-package Problems.Problems_NEXT;
+package Problems.All;
 
 import java.util.*;
 
@@ -6,7 +6,6 @@ public class Solution_0015 {
     public List<List<Integer>> threeSum(int[] nums) {
 
         Set<List<Integer>> ansInSet = new HashSet<>();
-        List<List<Integer>> ans = new ArrayList<>();
         List<Integer> triplet;
 
         Arrays.sort(nums);
@@ -43,11 +42,6 @@ public class Solution_0015 {
 
         }
 
-        for (List li: ansInSet) {
-            ans.add(li);
-        }
-
-
-        return ans;
+        return new ArrayList<>(ansInSet);
     }
 }
