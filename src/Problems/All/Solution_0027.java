@@ -4,18 +4,17 @@ public class Solution_0027 {
 
     public int removeElement(int[] nums, int val) {
 
-        int size = nums.length;
         int pos = 0;
 
         int count=0;
-        for (int i = 0; i < size; i++) {
-            if(nums[i] == val) {
+        for (int num : nums) {
+            if (num == val) {
                 count++;
             }
         }
 
 
-        for(int i=0;i<size;i++) {
+        for(int i=0;i<nums.length;i++) {
             if(pos >= count) {break;}
             if(nums[i] == val) {
                 nums = shiftLefter(nums, i);
