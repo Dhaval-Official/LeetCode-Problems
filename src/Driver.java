@@ -1,4 +1,4 @@
-import Problems.All.Solution_3560;
+import Problems.All.Solution_3536;
 import Problems.Problems_NEXT.*;
 //import Problems.Problems_NEXT.*;
 import common.ListNode;
@@ -42,12 +42,12 @@ public class Driver {
         int[][] arr2 = {{1,2,3},{4,5,6},{7,8,9}};
         String str = "PAHNAPLSIIGYIR";
 
-        Solution_3560 s =
-                new Solution_3560();
+        Solution_3536 s =
+                new Solution_3536();
 
         System.out.println();
         System.out.println("\nANS: "+
-                s.minCuttingCost(6,5,5)
+                s.maxProduct(100)
         );
 //        System.out.println(res[0]);
 //        for (int i = 0; i < res.length; i++) {
