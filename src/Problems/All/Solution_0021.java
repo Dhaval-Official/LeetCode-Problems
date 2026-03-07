@@ -7,9 +7,8 @@ class Solution_0021 {
 
         ListNode answer = new ListNode();
         ListNode answerHead = answer;
-        int loop = 0;
 
-        while(loop != 10) {
+        while(true) {
 
             if(list1 == null) {
                 answer.next = list2;
