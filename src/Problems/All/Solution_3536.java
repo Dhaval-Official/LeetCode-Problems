@@ -13,10 +13,7 @@ public class Solution_3536 {
             if (u >= max) {
                 max2 = max;
                 max = u;
-            } else if (u >= max2) {
-                max2 = u;
-            }
-
+            } else if (u >= max2) { max2 = u; }
 
             n/=10;
         }
