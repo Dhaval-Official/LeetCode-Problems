@@ -35,19 +35,21 @@ public class Driver {
 //            System.out.println(ptr.val);
 //            ptr = ptr.next;
 //        }
+
+        int[] arr = {-4,-2,1,4,8};
         ArrayList<Integer> al = new ArrayList<>(List.of(2,5,7,8,9,2,3,4,3,1));
-        int[] arr = {2,5,7,8,9,2,3,4,3,1};
         String[] strArr = {"abc","car","ada","racecar","cool"};
         int[] target = {3,7,11,9};
         int[][] arr2 = {{1,2,3},{4,5,6},{7,8,9}};
         String str = "PAHNAPLSIIGYIR";
+        String[] strarr = {"1","C"};
 
-        Solution_3536 s =
-                new Solution_3536();
+        Solution_2239 s =
+                new Solution_2239();
 
         System.out.println();
         System.out.println("\nANS: "+
-                s.maxProduct(100)
+                s.findClosestNumber(arr)
         );
 //        System.out.println(res[0]);
 //        for (int i = 0; i < res.length; i++) {
