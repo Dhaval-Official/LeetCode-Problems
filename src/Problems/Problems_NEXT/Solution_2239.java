@@ -23,7 +23,7 @@ public class Solution_2239 {
 
         }
 
-        System.out.println(absN+" "+absP);
+//        System.out.println(absN+" "+absP);
 
         if (absN == absP) {
             return absP;
