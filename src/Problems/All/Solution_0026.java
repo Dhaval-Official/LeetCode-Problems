@@ -13,8 +13,7 @@ public class Solution_0026 {
             }
             j++;
         }
-
-        return i++;
+        return i;
     }
 }
 
