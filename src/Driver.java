@@ -1,6 +1,6 @@
-import Problems.All.Solution_2239;
+import Problems.All.Solution_1582;
 //import Problems.Problems_NEXT.*;
-import Problems.This_Week.Solution_9999;
+import Problems.This_Week.*;
 import common.ListNode;
 
 import java.util.ArrayList;
@@ -40,16 +40,16 @@ public class Driver {
         ArrayList<Integer> al = new ArrayList<>(List.of(2,5,7,8,9,2,3,4,3,1));
         String[] strArr = {"abc","car","ada","racecar","cool"};
         int[] target = {3,7,11,9};
-        int[][] arr2 = {{1,2,3},{4,5,6},{7,8,9}};
+        int[][] arr2 = {{0,1,0},{0,0,0},{1,0,0},{1,0,0}};
         String str = "PAHNAPLSIIGYIR";
         String[] strarr = {"1","C"};
 
-        Solution_2239 s =
-                new Solution_2239();
+        Solution_1582 s =
+                new Solution_1582();
 
         System.out.println();
         System.out.println("\nANS: "+
-                s.findClosestNumber(arr)
+                s.numSpecial(arr2)
         );
 //        System.out.println(res[0]);
 //        for (int i = 0; i < res.length; i++) {
