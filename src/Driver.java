@@ -44,12 +44,12 @@ public class Driver {
         String str = "PAHNAPLSIIGYIR";
         String[] strarr = {"1","C"};
 
-        Solution_1582 s =
-                new Solution_1582();
+        Solution_1009 s =
+                new Solution_1009();
 
         System.out.println();
         System.out.println("\nANS: "+
-                s.numSpecial(arr2)
+                s.bitwiseComplement(10)
         );
 //        System.out.println(res[0]);
 //        for (int i = 0; i < res.length; i++) {
