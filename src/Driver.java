@@ -36,7 +36,7 @@ public class Driver {
 //            ptr = ptr.next;
 //        }
 
-        int[] arr = {-4,-2,1,4,8};
+        int[] arr = {1,3,1,1,2};
         ArrayList<Integer> al = new ArrayList<>(List.of(2,5,7,8,9,2,3,4,3,1));
         String[] strArr = {"abc","car","ada","racecar","cool"};
         int[] target = {3,7,11,9};
@@ -44,19 +44,21 @@ public class Driver {
         String str = "PAHNAPLSIIGYIR";
         String[] strarr = {"1","C"};
 
-        Solution_1009 s =
-                new Solution_1009();
+        Solution_2615 s =
+                new Solution_2615();
 
         System.out.println();
-        System.out.println("\nANS: "+
-                s.bitwiseComplement(10)
+        System.out.println("\nANS: "
+//                s.distance(arr)
         );
+        long[] res = s.distance(arr);
 //        System.out.println(res[0]);
-//        for (int i = 0; i < res.length; i++) {
-//            System.out.print(res[i]+", ");
-//        }
+        for (long re : res) {
+            System.out.print(re + ", ");
+        }
 
         Solution_9999 s9 = new Solution_9999();
+
 
     }
 
