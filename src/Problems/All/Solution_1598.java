@@ -1,4 +1,4 @@
-package Problems.This_Week;
+package Problems.All;
 
 import java.util.Objects;
 
