@@ -1,4 +1,4 @@
-package Problems.This_Week;
+package Problems.All;
 
 public class Solution_1009 {
 
